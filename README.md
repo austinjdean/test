@@ -6,6 +6,11 @@ Gitterdun is designed to be simple, consistent, and robust. It uses a two-pronge
 1. Bulk clone all repos for a GitHub user or org - also works for GH Enterprise instances.
 2. Concurrently pilfer any number of local repos.
 
+## Installation
+Gitterdun will work out of the box, but it is recommended to add a symlink to your `$PATH` so that you can run it from anywhere:
+
+    sudo ln -s /path/to/gitterdun.sh /usr/local/bin/gitterdun
+
 ## Usage
 You will need a Personal Access Token from GitHub to use Gitterdun. Go [here](https://github.com/settings/tokens) to get one.
 
@@ -35,13 +40,13 @@ Gitterdun produces output in the form of CSV files which are great for importing
 
 **Or, if you have all the repositories you wish to scan already in a single folder:**
 
-    gitterdun path/to/folder/containing/repos/*
+	gitterdun path/to/folder/containing/repos/*
 
 ## Acknowledgements
 
 Author:
-Austin Dean
+* Austin Dean
 
 Contributors:
-Gabe Siftar
-Dan Herlihy
+* Gabe Siftar
+* Dan Herlihy
