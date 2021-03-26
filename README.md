@@ -23,7 +23,7 @@ Gitterdun produces output in the form of CSV files which are great for importing
     * Set the delimiter to a pipe using the **Other** checkbox.
     * Change the **Text qualifier** to {none}.
 
-[pic of importing wizard]
+![Excel Import](https://github.com/austinjdean/test/blob/main/excel-import.png)
 
 ## Examples
 **To clone all repositories for a GitHub user:**
